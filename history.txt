@@ -1,0 +1,8 @@
+All my college project and coursework
+  - Algorithms & Basics of Programming : (Python)
+  - Data Structure                     : (C++)
+  - Basics of Web Programming          : (HTML, CSS, JS, Node.JS, Express, JSON)
+  - Database                           : (SQL)
+  - Application and Web Development    : (TS, Prisma, PHP)
+  - Object Oriented Programming        : (TS, Python, C++)
+  - Desktop Programming                : (Python, PyQt6)

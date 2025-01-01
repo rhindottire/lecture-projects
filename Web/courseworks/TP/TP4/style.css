@@ -1,0 +1,203 @@
+body{
+    font-family: "Poppins", Arial;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.header{
+    background-color: #093af9;
+    display: flex;
+    justify-content: center;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #161759;
+}
+
+.header >ul>li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header ul li a div {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+#gambar-1{
+    background-image: url(img/jatim_park.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+#gambar-2{
+    background-image: url(img/Alun2tugu.JPG);
+    background-size: cover;
+    background-repeat: repeat;
+}
+#gambar-3{
+    background-image: url(img/21286-dino-mall-kota-batu.webp);
+    background-size: cover;
+    background-repeat: repeat;
+}
+#gambar-4{
+    background-image: url(img/malang-night.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+#gambar-5{
+    background-image: url(img/Hill_House.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#gambar-6{
+    background-image: url(img/pemandian.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.gambarhead{
+    width: 150px;
+    height: 75px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    background-color: rgba(2, 35, 91, 0.668);
+}
+
+.menu >ul>li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu >ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.gambarwisata{
+    display: flex;
+    padding: 20px;
+}
+
+.gambar{
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.lokasi{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.deskripsi{
+    padding: 20px 300px 20px 20px;
+
+}
+
+.gambardesk{
+    width: 500px;
+    height: 250px;
+}
+
+.bar{
+    background-color: #B5DCFF;
+    float: right;
+    width: 15%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    border: 2px dotted black;
+    
+}
+
+.bar-atas{
+    border: 2px solid #3572ff;
+    color: white;
+    background-color: #3572ff;
+}
+
+.bar-atas h3{
+    text-align: center;
+}
+
+.bar-bawah{
+    background-color: #3572ff;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.bar-bawah h3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.bar-bawah div h4 {
+    color: #2a2a2a;
+}
+.bar-bawah div {
+    height: 140px;
+    background-color: white;
+}
+
+.bar-bawah div p{
+    text-align: center;
+}
+
+.bar-baru{
+    border: 2px solid #3572ff;
+    color: white;
+    background-color: #3572ff;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+form{
+    background-color: white;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form div label{
+    width: 50%;
+}
+
+form div input{
+    width: 50%;
+}
+
+form fieldset {
+    margin-top: 20px;
+    background-color: white;
+    color: black; 
+}
+
+.footer{
+    padding-top: 0.5;
+    padding-bottom: 0.5;
+    margin: 0;
+    text-align: center;
+    background-color: #093af9;
+    color: white;
+}

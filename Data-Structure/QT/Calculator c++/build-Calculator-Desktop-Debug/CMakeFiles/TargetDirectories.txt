@@ -1,0 +1,9 @@
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/Calculator.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/edit_cache.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/list_install_components.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/install.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/install/local.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/install/strip.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/Calculator_autogen_timestamp_deps.dir
+D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/CMakeFiles/Calculator_autogen.dir

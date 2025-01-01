@@ -1,0 +1,13 @@
+# ninja log v5
+2	660	7338348422624177	Calculator_autogen/timestamp	8ed30bc2b605b4ea
+2	660	7338348422624177	Calculator_autogen/mocs_compilation.cpp	8ed30bc2b605b4ea
+2	660	7338348422624177	D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	8ed30bc2b605b4ea
+2	660	7338348422624177	D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	8ed30bc2b605b4ea
+661	2849	7338348445050533	CMakeFiles/Calculator.dir/main.cpp.obj	71cdf59396ae9f49
+664	2867	7338348445240028	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	fce888adb9912045
+668	2971	7338348446275234	CMakeFiles/Calculator.dir/calculator.cpp.obj	c144a61212d827c1
+2972	3419	7338348450691839	Calculator.exe	6b14099f94e655f9
+6	521	7505372572165551	Calculator_autogen/timestamp	8ed30bc2b605b4ea
+6	521	7505372572165551	Calculator_autogen/mocs_compilation.cpp	8ed30bc2b605b4ea
+6	521	7505372572165551	D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	8ed30bc2b605b4ea
+6	521	7505372572165551	D:/Saya/Programming/QT/Calculator c++/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	8ed30bc2b605b4ea

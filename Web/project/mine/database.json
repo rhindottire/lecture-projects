@@ -1,0 +1,608 @@
+[
+  {
+    "id": "1",
+    "img": "img/jojo_jonathan.jpg",
+    "title": " Jojo's Bizarre Adventure: Phantom Blood",
+    "rank": 1,
+    "score": 9.46,
+    "rating": "General",
+    "genre": "Action, Adventure, Supernatural, Thriller, Comedy, Tragedy, Mystery",
+    "premium": false
+  },
+  {
+    "id": "2",
+    "img": "img/jojo_joseph.jpg",
+    "title": "Jojo`s BIzarre Adventure: Battle Tendency",
+    "rank": 2,
+    "score": 9.42,
+    "rating": "General",
+    "genre": "Action, Adventure, Supernatural, Thriller, Comedy, Tragedy, Mystery",
+    "premium": false
+  },
+  {
+    "id": "3",
+    "img": "img/jojo_jotaro.jpg",
+    "title": "Jojo`s BIzarre Adventure: Stardust Crusaders",
+    "rank": 3,
+    "score": 9.37,
+    "rating": "General",
+    "genre": "Action, Adventure, Supernatural, Thriller, Comedy, Tragedy, Mystery",
+    "premium": false
+  },
+  {
+    "id": "4",
+    "img": "img/jojo_josuke.jpg",
+    "title": "Jojo`s BIzarre Adventure: Diamond is Unbreakable",
+    "rank": 4,
+    "score": 9.34,
+    "rating": "General",
+    "genre": "Action, Adventure, Supernatural, Thriller, Comedy, Tragedy, Mystery",
+    "premium": false
+  },
+  {
+    "id": "5",
+    "img": "img/jojo_giorno.jpg",
+    "title": "Jojo`s BIzarre Adventure: Golden Wind",
+    "rank": 5,
+    "score": 9.3,
+    "rating": "General",
+    "genre": "Action, Adventure, Supernatural, Thriller, Comedy, Tragedy, Mystery",
+    "premium": false
+  },
+  {
+    "id": "6",
+    "img": "img/jojo_jocelyn.jpg",
+    "title": "Jojo`s BIzarre Adventure: Stone Ocean",
+    "rank": 6,
+    "score": 9.28,
+    "rating": "General",
+    "genre": "Action, Adventure, Supernatural, Thriller, Comedy, Tragedy, Mystery",
+    "premium": false
+  },
+  {
+    "id": "7",
+    "img": "img/monster.jpg",
+    "title": "Monster",
+    "rank": 7,
+    "score": 9.25,
+    "rating": "Restricted",
+    "genre": "Crime, Mystery, Psychological thriller",
+    "premium": true
+  },
+  {
+    "id": "8",
+    "img": "img/death_note.jpg",
+    "title": "Death note",
+    "rank": 8,
+    "score": 9.24,
+    "rating": "Restricted",
+    "genre": "Mystery, Psychological thriller, Supernatural thriller",
+    "premium": true
+  },
+  {
+    "id": "9",
+    "img": "img/berserk.jpg",
+    "title": "Berserk",
+    "rank": 9,
+    "score": 9.17,
+    "rating": "Restricted",
+    "genre": "Dark fantasy, Epic fantasy, Sword and sorcery",
+    "premium": false
+  },
+  {
+    "id": "10",
+    "img": "img/steins_gate.jpg",
+    "title": "Steins gate",
+    "rank": 10,
+    "score": 9.14,
+    "rating": "Restricted",
+    "genre": "Psychological thriller, Science fiction",
+    "premium": true
+  },
+  {
+    "id": "11",
+    "img": "img/AOT.jpg",
+    "title": "Attack on titan",
+    "rank": 11,
+    "score": 9,
+    "rating": "Restricted",
+    "genre": "Action, Dark fantasy, Post-apocalyptic",
+    "premium": false
+  },
+  {
+    "id": "12",
+    "img": "img/baki.jpg",
+    "title": "Baki the grappler",
+    "rank": 12,
+    "score": 8.97,
+    "rating": "General",
+    "genre": "Martial arts",
+    "premium": false
+  },
+  {
+    "id": "13",
+    "img": "img/chainsaw_man.jpg",
+    "title": "Chainsaw man",
+    "rank": 13,
+    "score": 8.94,
+    "rating": "Restricted",
+    "genre": "Action, Comedy horror, Dark fantasy",
+    "premium": false
+  },
+  {
+    "id": "14",
+    "img": "img/code_geass.jpg",
+    "title": "Code geass",
+    "rank": 14,
+    "score": 8.88,
+    "rating": "General",
+    "genre": "Alternate history, Mecha, Military",
+    "premium": false
+  },
+  {
+    "id": "15",
+    "img": "img/conan.jpg",
+    "title": "Conan",
+    "rank": 15,
+    "score": 8.84,
+    "rating": "General",
+    "genre": "Action, Crime, Mystery",
+    "premium": false
+  },
+  {
+    "id": "16",
+    "img": "img/goblin_slayer.jpg",
+    "title": "Goblin slayer",
+    "rank": 16,
+    "score": 8.63,
+    "rating": "Restricted",
+    "genre": "Adventure, Dark fantasy",
+    "premium": false
+  },
+  {
+    "id": "17",
+    "img": "img/hellsing.jpg",
+    "title": "Hellsing",
+    "rank": 17,
+    "score": 8.41,
+    "rating": "Restricted",
+    "genre": "Action, Dark fantasy, Vampire",
+    "premium": false
+  },
+  {
+    "id": "18",
+    "img": "img/mirai_nikki.jpg",
+    "title": "Mirai nikki",
+    "rank": 18,
+    "score": 8.27,
+    "rating": "Restricted",
+    "genre": "Mystery, Psychological thriller, Romance",
+    "premium": false
+  },
+  {
+    "id": "19",
+    "img": "img/tomodachi.jpg",
+    "title": "Tomodachi game",
+    "rank": 19,
+    "score": 8.19,
+    "rating": "Restricted",
+    "genre": "Psychological thriller",
+    "premium": true
+  },
+  {
+    "id": "20",
+    "img": "img/vinland_saga.jpg",
+    "title": "Vinland saga",
+    "rank": 20,
+    "score": 8.14,
+    "rating": "Restricted",
+    "genre": "Adventure, Epic, Historical",
+    "premium": false
+  },
+  {
+    "id": "21",
+    "img": "img/naruto.jpg",
+    "title": "Naruto",
+    "rank": 21,
+    "score": 7.93,
+    "rating": "General",
+    "genre": "Adventure, Fantasy comedy, Martial arts",
+    "premium": false
+  },
+  {
+    "id": "22",
+    "img": "img/one_piece.jpg",
+    "title": "One piece",
+    "rank": 22,
+    "score": 7.92,
+    "rating": "General",
+    "genre": "Adventure, Fantasy, Science fiction",
+    "premium": false
+  },
+  {
+    "id": "23",
+    "img": "img/bleach.jpg",
+    "title": "Bleach",
+    "rank": 23,
+    "score": 7.91,
+    "rating": "General",
+    "genre": "Adventure, Martial arts, Supernatural",
+    "premium": false
+  },
+  {
+    "id": "24",
+    "img": "img/boruto.jpg",
+    "title": "Boruto",
+    "rank": 24,
+    "score": 7.88,
+    "rating": "General",
+    "genre": "Adventure, Fantasy",
+    "premium": false
+  },
+  {
+    "id": "25",
+    "img": "img/corpse_party.jpg",
+    "title": "Corpse party",
+    "rank": 25,
+    "score": 7.87,
+    "rating": "Restricted",
+    "genre": "Survival horror, Adventure game",
+    "premium": false
+  },
+  {
+    "id": "26",
+    "img": "img/junji_ito.jpg",
+    "title": "Junji ito collections",
+    "rank": 26,
+    "score": 7.84,
+    "rating": "Restricted",
+    "genre": "Horror",
+    "premium": false
+  },
+  {
+    "id": 27,
+    "img": "img/fullmetal.jpg",
+    "title": "Fullmetal Alchemist",
+    "rank": 27,
+    "score": 7.82,
+    "rating": "General",
+    "genre": "Adventure, Dark fantasy, Steampunk",
+    "premium": false
+  },
+  {
+    "id": 28,
+    "img": "img/beelzebub.jpg",
+    "title": "Beelzebub",
+    "rank": 28,
+    "score": 7.73,
+    "rating": "General",
+    "genre": "Action, Comedy, Supernatural",
+    "premium": false
+  },
+  {
+    "id": 29,
+    "img": "img/CTE.jpg",
+    "title": "Classroom of the Elite",
+    "rank": 29,
+    "score": 7.69,
+    "rating": "General",
+    "genre": "Psychological thriller",
+    "premium": true
+  },
+  {
+    "id": 30,
+    "img": "img/a_class.jpg",
+    "title": "Assassination Classroom",
+    "rank": 30,
+    "score": 7.65,
+    "rating": "General",
+    "genre": "Action, Science fiction, Comedy ",
+    "premium": true
+  },
+  {
+    "id": 31,
+    "img": "img/BoS.jpg",
+    "title": "Battle of Surabaya",
+    "rank": 31,
+    "score": 7.61,
+    "rating": "General",
+    "genre": "Action, Adventure, Historical, Drama",
+    "premium": true
+  },
+  {
+    "id": 32,
+    "img": "img/madoka.jpg",
+    "title": "Puella Magi Madoka Magica",
+    "rank": 32,
+    "score": 7.59,
+    "rating": "General",
+    "genre": "Adventure game, RPG",
+    "premium": false
+  },
+  {
+    "id": 33,
+    "img": "img/violet.jpg",
+    "title": "Violet Evergarden",
+    "rank": 33,
+    "score": 7.58,
+    "rating": "General",
+    "genre": "Drama, Fantasi",
+    "premium": false
+  },
+  {
+    "id": 34,
+    "img": "img/mushoku_tensei.jpg",
+    "title": "Mushoku Tensei",
+    "rank": 34,
+    "score": 7.55,
+    "rating": "Restricted",
+    "genre": "Adventure, Drama, Isekai",
+    "premium": false
+  },
+  {
+    "id": 35,
+    "img": "img/danmachi.jpg",
+    "title": "Dungeon ni deai o motomeru no wa machigatteiru darō ka",
+    "rank": 35,
+    "score": 7.53,
+    "rating": "General",
+    "genre": "Fantasi",
+    "premium": false
+  },
+  {
+    "id": 36,
+    "img": "img/dr.stone.jpg",
+    "title": "Dr. Stone",
+    "rank": 36,
+    "score": 7.5,
+    "rating": "General",
+    "genre": "Adventure, Post-apocalyptic, Science fiction",
+    "premium": true
+  },
+  {
+    "id": 37,
+    "img": "img/overlord.jpg",
+    "title": "Overlord",
+    "rank": 37,
+    "score": 7.48,
+    "rating": "General",
+    "genre": "Dark fantasy, Isekai",
+    "premium": false
+  },
+  {
+    "id": 38,
+    "img": "img/shield_hero.jpg",
+    "title": "The Rising of the Shield Hero",
+    "rank": 38,
+    "score": 7.46,
+    "rating": "General",
+    "genre": "Dark fantasy, Isekai",
+    "premium": false
+  },
+  {
+    "id": 39,
+    "img": "img/konosuba.jpg",
+    "title": "Kono Subarashii Sekai ni Shukufuku wo!",
+    "rank": 39,
+    "score": 7.44,
+    "rating": "General",
+    "genre": "Fantasy comedy, Isekai",
+    "premium": false,
+    "rater": [
+      {
+        "name": "John",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "img": "img/yurucamp.jpg",
+    "title": "Yuru Camp",
+    "rank": 40,
+    "score": 7.41,
+    "rating": "General",
+    "genre": "Adventure",
+    "premium": false
+  },
+  {
+    "id": 41,
+    "img": "img/super_cub.jpg",
+    "title": "Super Cub",
+    "rank": 41,
+    "score": 7.4,
+    "rating": "General",
+    "genre": "Slice of life",
+    "premium": false
+  },
+  {
+    "id": 42,
+    "img": "img/hataraku_maosama.jpg",
+    "title": "Hataraku Maou-sama!",
+    "rank": 42,
+    "score": 7.38,
+    "rating": "General",
+    "genre": "Comedy, Fantasy",
+    "premium": false
+  },
+  {
+    "id": 43,
+    "img": "img/starwars_vision.jpg",
+    "title": "Star Wars: Visions",
+    "rank": 43,
+    "score": 7.37,
+    "rating": "General",
+    "genre": "Action, Adventure, Anthology, Science fiction, Space opera",
+    "premium": true
+  },
+  {
+    "id": 44,
+    "img": "img/evangelion.jpg",
+    "title": "Neon Genesis Evangelion",
+    "rank": 44,
+    "score": 7.35,
+    "rating": "Restricted",
+    "genre": "Apocalyptic, Mecha, Psychological drama",
+    "premium": false
+  },
+  {
+    "id": 45,
+    "img": "img/what_if.jpg",
+    "title": "What if...?",
+    "rank": 45,
+    "score": 7.33,
+    "rating": "General",
+    "genre": "Fantasy, Sci-fi",
+    "premium": true
+  },
+  {
+    "id": 46,
+    "img": "img/obiwan_kenobi.jpg",
+    "title": "Obi-Wan Kenobi",
+    "rank": 46,
+    "score": 7.32,
+    "rating": "General",
+    "genre": "Action, Adventure, Science fiction, Space opera",
+    "premium": true
+  },
+  {
+    "id": 47,
+    "img": "img/barakamon.jpg",
+    "title": "Barakamon",
+    "rank": 47,
+    "score": 7.29,
+    "rating": "General",
+    "genre": "Comedy, Slice of life",
+    "premium": false
+  },
+  {
+    "id": 48,
+    "img": "img/loki.jpg",
+    "title": "Loki",
+    "rank": 48,
+    "score": 7.26,
+    "rating": "General",
+    "genre": "Action, Adventure, Crime thriller, Fantasy, Sciene fiction",
+    "premium": true
+  },
+  {
+    "id": 49,
+    "img": "img/hawkeye.jpg",
+    "title": "Hawkeye",
+    "rank": 49,
+    "score": 7.25,
+    "rating": "General",
+    "genre": "Action, Adventure, Comedy, Crime, Superhero",
+    "premium": true
+  },
+  {
+    "id": 50,
+    "img": "img/falcon&winter.jpg",
+    "title": "The Falcon and the Winter Soldier",
+    "rank": 50,
+    "score": 7.22,
+    "rating": "General",
+    "genre": "Action, Adventure, Sciene fiction, Superhero",
+    "premium": true
+  },
+  {
+    "id": 51,
+    "img": "img/SAO.jpg",
+    "title": "Sword Art Online",
+    "rank": 51,
+    "score": 7.2,
+    "rating": "General",
+    "genre": "Action, Adventure, Science fiction",
+    "premium": false
+  },
+  {
+    "id": 52,
+    "img": "img/dragon_ball.jpg",
+    "title": "Dragon Ball",
+    "rank": 52,
+    "score": 7.18,
+    "rating": "General",
+    "genre": "Action, Adventure, Comedy, Fantasy, Martial Arts, Science Fiction, Fantasy",
+    "premium": false
+  },
+  {
+    "id": 53,
+    "img": "img/demon_slayer.jpg",
+    "title": "Kimetsu no Yaiba",
+    "rank": 53,
+    "score": 7.16,
+    "rating": "General",
+    "genre": "Adventure, Dark fantasy, Martial arts",
+    "premium": false
+  },
+  {
+    "id": 54,
+    "img": "img/kaguya_sama.jpg",
+    "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+    "rank": 54,
+    "score": 7.15,
+    "rating": "General",
+    "genre": "Psychological, Romance, Comedy, Slice of life,",
+    "premium": false
+  },
+  {
+    "id": 55,
+    "img": "img/MHA.jpg",
+    "title": "My Hero Academia",
+    "rank": 55,
+    "score": 7.14,
+    "rating": "General",
+    "genre": "Adventure, Fantasy, Superhero",
+    "premium": false
+  },
+  {
+    "id": 56,
+    "img": "img/no_game.jpg",
+    "title": "No Game No Life",
+    "rank": 56,
+    "score": 7.08,
+    "rating": "General",
+    "genre": "Fantasy, Science fiction, Isekai",
+    "premium": false
+  },
+  {
+    "id": 57,
+    "img": "img/one_punch.jpg",
+    "title": "One-Punch Man",
+    "rank": 57,
+    "score": 7.06,
+    "rating": "General",
+    "genre": "Action, Comedy, Superhero",
+    "premium": false
+  },
+  {
+    "id": "58",
+    "img": "img/solo_leveling.jpg",
+    "title": "Solo Leveling",
+    "rank": 58,
+    "score": 7.05,
+    "rating": "General",
+    "genre": "Action, Fantasy",
+    "premium": true
+  },
+  {
+    "id": 59,
+    "img": "img/TGoH.jpg",
+    "title": "The God of High School",
+    "rank": 59,
+    "score": 7.02,
+    "rating": "General",
+    "genre": "Comedy, Martial arts, Supernatural",
+    "premium": true
+  },
+  {
+    "id": 60,
+    "img": "img/ToG.jpg",
+    "title": "Tower of God",
+    "rank": 60,
+    "score": 7,
+    "rating": "General",
+    "genre": "Action, Dark fantasy",
+    "premium": true
+  }
+]

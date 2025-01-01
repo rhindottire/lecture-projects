@@ -1,0 +1,128 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            Int       @id @default(autoincrement())
+  email         String    @unique
+  username      String    @unique
+  password      String
+  role          Role
+  admin         Admin?
+  client        Client?   // 1 : 1
+  name          String?
+  gender        Gender?   // MAN or WOMAN
+  birthday      DateTime? // 2004-11-17
+  telephone     String?   // +62-xxx-xxxx-xxxx
+  userProfile   String?   // url
+  createAt      DateTime  @default(now())
+  updateAt      DateTime  @updatedAt
+  token         String?
+  recoveryToken String?
+  @@map("users")          // mapping
+}
+
+enum Role {
+  ADMIN
+  CLIENT
+}
+
+enum Gender {
+  MAN
+  WOMAN
+}
+
+model Admin {
+  id       Int      @id @default(autoincrement())
+  userId   Int      @unique
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  feedback Feedback []
+  createAt DateTime @default(now())
+  updateAt DateTime @updatedAt
+  @@map("admins")
+}
+
+model Client {
+  id       Int         @id @default(autoincrement())
+  userId   Int         @unique
+  user     User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  payment  Payment[]
+  feedback Feedback[]
+  createAt DateTime    @default(now())
+  updateAt DateTime    @updatedAt
+  @@map("clients")
+}
+
+model Payment {
+  id          Int       @id @default(autoincrement())
+  clientId    Int
+  client      Client    @relation(fields: [clientId], references: [id], onDelete: Cascade)
+  subscribe   Subscribe?
+  nominal     Int
+  status      Status
+  createAt    DateTime  @default(now())
+  updateAt    DateTime  @updatedAt
+  @@map("payments")
+}
+
+enum Status {
+  FAILED
+  PENDING
+  SUCCESS
+}
+
+model Subscribe {
+  id             Int       @id @default(autoincrement())
+  paymentId      Int       @unique
+  payment        Payment   @relation(fields: [paymentId], references: [id], onDelete: Cascade)
+  premium        Boolean   @default(false)
+  jenis          Jenis
+  startDate      DateTime
+  endDate        DateTime
+  lyricDisplay   Boolean   @default(false)
+  createPlaylist Boolean   @default(false)
+  downloadLagu   Boolean   @default(false)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  @@map("subscribes")
+}
+
+enum Jenis {
+  BASIC
+  EXPERT
+  MASTER
+}
+
+model Feedback {
+  id         Int      @id @default(autoincrement())
+  clientId   Int
+  client     Client   @relation(fields: [clientId], references: [id], onDelete: Cascade)
+  adminId    Int?
+  admin      Admin?   @relation(fields: [adminId], references: [id], onDelete: Cascade)
+  criticism  String
+  suggestion String?
+  rating     Int?
+  adminReply String?
+  createAt   DateTime @default(now())
+  updateAt   DateTime @updatedAt
+}
+
+model Server {
+  status serverStatus @unique
+}
+
+enum serverStatus {
+  ONLINE
+  OFFLINE
+}

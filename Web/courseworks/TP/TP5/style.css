@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial;
+}
+table.aktif {
+    width: 100%;
+}
+
+table th.aktif {
+    text-align: center;
+    width: 20%;
+}
+
+table th, table td {
+    height: 50px;
+}
+
+table input {
+    width: 100%;
+    height: 30px;
+}
+
+table button {
+    width: 100%;
+    height: 30px;
+}
+
+#add-item {
+    text-align: center;
+    width: 10%;
+    height: 30px;
+}
+
+hr {
+    border: 0.5px solid #ccc;
+    margin: 20px 0;
+}
+
+#total {
+    width: 100%;
+    text-align: left;
+    line-height: 50px;
+    height: 50px;
+}
+
+.header {
+    background-color: red;
+}

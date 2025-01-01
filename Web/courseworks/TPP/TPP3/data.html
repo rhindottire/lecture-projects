@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5502/Praktikum/Tugas/TPP3/error.html" method="get">
+        <fieldset>
+            <legend>Data Registrasi</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td>
+                            <input
+                                type="text"
+                                name="username"
+                                id="username"
+                                size="20"
+                                maxlength="20"
+                                required
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td>
+                            <input
+                                type="password"
+                                name="password"
+                                id="password"
+                                size="20"
+                                required
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthdate">Tanggal Lahir:</label></td>
+                        <td>
+                            <input type="date" name="birthdate" id="birthdate" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="telephone">Telepon:</label></td>
+                        <td>
+                            <input
+                                type="tel"
+                                name="telephone"
+                                id="telephone"
+                                placeholder="xxx-xxxxxxx"
+                                pattern="[0-9]{3}-[0-9]{7}"
+                                required
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Jenis Kelamin:</label></td>
+                        <td>
+                            <label for="gender">Laki-laki</label>
+                            <input type="radio" name="gender" id="gender" value="male" />
+                            <label for="gender">Perempuan</label>
+                            <input
+                                type="radio"
+                                name="gender"
+                                id="gender"
+                                value="female"
+                                checked
+                            />
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                        <td><label for="companyName">Nama Perusahaan:</label></td>
+                        <td>
+                            <select id="companyName" name="companyName">
+                                <option>Pilihan</option>
+                                <option value="dell">Dell</option>
+                                <option value="acer">Acer</option>
+                                <option value="toshiba">Toshiba</option>
+                                <option value="asus">ASUS</option>
+                                <option value="hp">HP</option>
+                                <option value="apple">Apple</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="companyName">Nama Perusahaan:</label></td>
+                        <td>
+                            <input id="companyName2" name="companyName2" list="companies" />
+                            <datalist id="companies">
+                                <option value="Dell"></option>
+                                <option value="Acer"></option>
+                                <option value="Toshiba"></option>
+                                <option value="Asus"></option>
+                                <option value="HP"></option>
+                                <option value="Apple"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="notes">Catatan:</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea name="notes" id="notes" cols="40" rows="6"></textarea>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td colspan="2">
+                            <label for="binary">Bersedia menerima iklan melalui email?</label>
+                            <input type="checkbox" name="binary" id="binary" checked />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input
+                                type="submit"
+                                value="Submit"
+                                name="button1"
+                                id="button1"
+                            />
+                            <input type="reset" value="Reset" name="button2" id="button2" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

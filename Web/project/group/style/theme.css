@@ -1,0 +1,38 @@
+[data-bs-theme="dark"] {
+  --teks: #fff;
+  --warna2: rgba(0, 0, 0, 1);
+  --warna3: #e7e7e7;
+  --warna4: #212529;
+  --warna2-0: rgba(0, 0, 0, 0);
+}
+[data-bs-theme="light"] {
+  --teks: #000;
+  --warna2: rgba(255, 255, 255, 1);
+  --warna3: #5e5e5e;
+  --warna4: #fff;
+  --warna2-0: rgba(255, 255, 255, 0);
+}
+
+.teks {
+  color: var(--teks) !important;
+  font-weight: 500;
+}
+.head-foot-theme {
+  background-color: var(--warna4) !important;
+}
+
+.bg-auto {
+  background-color: var(--warna2) !important;
+}
+
+.bg-linear-right {
+  height: 100%;
+  background-image: linear-gradient(to right, var(--warna2), var(--warna2-0));
+}
+.bg-linear-left {
+  height: 100%;
+  background-image: linear-gradient(to left, var(--warna2), var(--warna2-0));
+}
+.bg-linear-bottom {
+  background-image: linear-gradient(to top, var(--warna2), var(--warna2-0));
+}

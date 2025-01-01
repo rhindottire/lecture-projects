@@ -1,0 +1,39 @@
+nim = int(input("NIM anda : "))
+def cekNama(NIM):
+    mhswdict = {
+        230411100020 : "HERMANSYAH",
+        230411100021 : "JAUHAR FANANI",
+        230411100023 : "CINDY PUSPITA SETYAWATI",
+        230411100026 : "FAIZATUR RIZQIYAH",
+        230411100051 : "MOCH LINTANG AKBAR PERDANA",
+        230411100055 : "MOHAMAD WAHYUDI",
+        230411100056 : "FAHRIZAL UMAM",
+        230411100059 : "ACHMAD LUTFI MADHANI",
+        230411100099 : "DWI PRASETYA MUMTAZ",
+        230411100105 : "AHMAD HAYDAR AL ABROR",
+        230411100106 : "FAJAR ALI HAMZAH",
+        230411100114 : "AHMAD SYAUQI FUADY",
+        230411100116 : "AHMAD UBAYDIR ROHMAN",
+        230411100123 : "IMRO ATUN JAMILAH SALSABILAH ABDULAH",
+        230411100156 : "KAMILA MULYA FADILA",
+        230411100157 : "ALIYA ZULFA SYAFITRI",
+        230411100160 : "AKMAL ATHALLAH ZUHDI",
+        230411100161 : "ALHAMDY WAHYU ALFIANSYAH",
+        230411100164 : "AHMAD SYAFIQ AZIZI",
+        230411100172 : "DICKY SAPUTRA",
+        230411100174 : "ALFA RIZKY RAMADHAN",
+        230411100175 : "AHMAD DHIYAUDDIN",
+        230411100197 : "ACHMAD RIDHO FA'IZ",
+        230411100198 : "IMAM SYAFII",
+        230411100200 : "MOH. RADIQYA FIRMANSYAH",
+        230411200206 : "IVAN ROISUS SALAM"
+    }
+    if NIM in mhswdict:
+        return mhswdict[NIM]
+    else:
+        return "Maaf nama tidak ditemukan."
+nama = cekNama(nim)
+if "Maaf" not in nama:
+    print(f"Mahasiswa dengan nim {nim} bernama '{nama}'")
+else:
+    print(nama)

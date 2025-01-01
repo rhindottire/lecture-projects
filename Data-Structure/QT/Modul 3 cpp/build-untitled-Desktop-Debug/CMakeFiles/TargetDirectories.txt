@@ -1,0 +1,9 @@
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/untitled.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/edit_cache.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/list_install_components.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/install.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/install/local.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/install/strip.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/untitled_autogen_timestamp_deps.dir
+D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/CMakeFiles/untitled_autogen.dir

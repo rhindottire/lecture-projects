@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0d47a1, #121212);
+  color: #f5f5f5;
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+  max-width: 850px;
+  background: rgba(43, 43, 63, 0.85);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  animation: fadeIn 1s ease-out;
+}
+
+.header {
+  width: 100%;
+  color: #222;
+  padding: 20px;
+  animation: fadeIn 1s ease-out;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  background: rgba(43, 43, 63, 0.85);
+  text-shadow: 0 1px 1px white;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 15px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #00baff;
+  margin-bottom: 12px;
+  font-weight: bold;
+  text-shadow: 2px 4px 2px black;
+}
+
+.add {
+  background: #005bb5;
+  color: #f5f5f5;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px black;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a {
+  color: inherit; /* Mengikuti warna elemen induk */
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.add:hover {
+  background-color: #004080;
+  transform: translateY(-2px);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background: rgba(29, 29, 39, 0.9);
+  color: #00baff;
+  font-weight: 600;
+  border-bottom: 2px solid #00aaff;
+}
+
+tr:nth-child(even) {
+  background: rgba(45, 45, 55, 0.9);
+}
+
+tr:hover {
+  background: rgba(34, 34, 44, 0.9);
+  transition: background 0.2s ease-in-out;
+}
+
+td {
+  border-bottom: 1px solid rgba(70, 70, 85, 0.8);
+}
+
+button {
+  background-color: #333;
+  color: #f5f5f5;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;  
+  font-size: 0.9rem;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+
+button.edit {
+  background-color: #0066cc;
+}
+
+button.edit:hover {
+  background-color: #0055aa;
+}
+
+button.delete {
+  background-color: #d32f2f;
+}
+
+button.delete:hover {
+  background-color: #b71c1c;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

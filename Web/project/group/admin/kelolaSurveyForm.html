@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Truno</title>
+    <link
+      rel="shortcut icon"
+      href="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://localhost/Tugas%20Bu%20devie/style/theme.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav
+      class="navbar fixed-top head-foot-theme py-2 border-bottom border-3 border-primary"
+    >
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="d-flex align-items-center">
+          <button
+            class="btn border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="bi bi-list fs-5"></i></span>
+          </button>
+          <a class="navbar-brand d-lg-inline-block d-none" href="#"
+            ><h3>Boot<span class="text-primary">strap</span></h3></a
+          >
+        </div>
+        <div>
+          <a class="navbar-brand m-0 d-lg-none d-inline-block" href="#"
+            ><h3>Boot<span class="text-primary">strap</span></h3></a
+          >
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle border-0 pe-0"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              id="uiButtonTheme"
+            >
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+            <ul class="dropdown-menu" style="min-width: 0px">
+              <li class="dropdown-item">
+                <button class="btn border-0" id="darkButton">
+                  <i class="bi bi-moon-stars-fill"></i>
+                </button>
+              </li>
+              <li class="dropdown-item">
+                <button class="btn border-0" id="lightButton">
+                  <i class="bi bi-brightness-high-fill"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <a href="" id="profilBtn1" class="btn border-0 d-lg-block d-none">
+            <i class="bi bi-person fs-5"></i>
+          </a>
+          <button
+            id="notifBtn"
+            class="btn border-0"
+            data-bs-toggle="modal"
+            data-bs-target="#modalNotification"
+          >
+            <i class="bi bi-envelope fs-5"></i>
+          </button>
+        </div>
+
+        <div
+          class="offcanvas offcanvas-start"
+          style="width: 300px"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-header p-0 m-0">
+              Boot<span class="text-primary">strap</span>
+            </h3>
+            <button
+              type="button"
+              class="btn-close shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <hr class="m-0" />
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-start flex-grow-1">
+              <li class="nav-item my-auto" id="displayBtnOrName">
+                <div
+                  class="d-flex justify-content-between align-items-center teks"
+                >
+                  <span id="nameBlock"></span>
+                  <btn class="btn border-0" id="logOutBtn">
+                    <i class="bi bi-box-arrow-right"></i>
+                  </btn>
+                </div>
+              </li>
+              <hr />
+            </ul>
+          </div>
+          <hr class="m-0" />
+          <div class="mx-3 my-2">if it works don't touch it</div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-------------------------------------------- MAIN START ------------------------------------------------------>
+    <!-- isi di bawah sini ya anak pintar -->
+
+    <section class="container-fluid mt-5 vh-100">
+      <div class="row p-5">
+        <div class="col-1"></div>
+        <div class="col">
+          <h3>Tabel Kritik Dan Saran</h3>
+          <table class="table table-bordered" id="tabelKritik">
+            <thead>
+              <tr>
+                <th style="width: 10px">#</th>
+                <th style="width: 150px">Username</th>
+                <th style="width: 150px">Email</th>
+                <th style="width: 100px">Rating</th>
+                <th style="width: auto">Komentar</th>
+                <th style="width: 150px">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Null</td>
+                <td>Null</td>
+                <td>Null</td>
+                <td>jika baris ini muncul berarti ada yang salah</td>
+                <td class="d-flex justify-content-center gap-2">
+                  <button class="btn btn-success badge">Balas</button>
+                  <button class="btn btn-danger badge">Del</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </section>
+
+    <div class="modal" id="kelolaKritik" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Balas Email User</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div id="alertBoxFormKelolaKritik"></div>
+            <fieldset disabled>
+              <label for="formKelolaKritikNamaUser" class="form-label my-2"
+                >Nama User</label
+              >
+              <input
+                type="text"
+                id="formKelolaKritikNamaUser"
+                class="form-control"
+                placeholder=". . . ."
+                disabled
+              />
+              <label for="formKelolaKritikEmailUser" class="form-label my-2"
+                >Email User</label
+              >
+              <input
+                type="text"
+                id="formKelolaKritikEmailUser"
+                class="form-control"
+                placeholder=". . . ."
+                disabled
+              />
+            </fieldset>
+
+            <label for="formKelolaKritikBalasan" class="form-label my-2"
+              >Balasan</label
+            >
+            <textarea
+              class="form-control"
+              rows="8"
+              id="formKelolaKritikBalasan"
+              placeholder=". . . ."
+              required
+            ></textarea>
+          </div>
+          <div class="modal-footer justify-content-start">
+            <button
+              type="submit"
+              id="kirimBalasanKritik"
+              class="btn btn-primary border border-0"
+            >
+              KIRIM
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------------------- MAIN END -------------------------------------------------------->
+    <div class="position-relative">
+      <i
+        class="bi bi-arrow-up-circle position-fixed bottom-0 end-0 m-4 fs-3"
+        onclick="return document.documentElement.scrollTop = 0"
+        style="cursor: pointer"
+      ></i>
+    </div>
+
+    <!-- FOOTER START -->
+    <footer
+      class="container-fluid border-top border-3 border-primary head-foot-theme"
+      style="height: 50px"
+    >
+      <p class="text-center my-auto">&copy; Lorem Ipsum Dolor Sit Amet</p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- modal untuk menampilkan info lebih lanjut sebuah lagu -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="script/scriptNavbarAdmin.js"></script>
+    <script type="module" src="script/scriptKelolaFeedback.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+/* Gaya untuk dialog login */
+QDialog {
+    background-color: #2C2F36; /* Warna latar belakang gelap */
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 300px;
+}
+
+/* Gaya untuk label */
+QLabel {
+    font-size: 14px;
+    color: #E0E0E0; /* Warna teks abu-abu terang */
+    margin-bottom: 5px;
+    height: 10px;
+}
+
+/* Gaya untuk input text (username dan password) */
+QLineEdit {
+    background-color: #424242; /* Warna latar belakang input */
+    border: 2px solid #616161; /* Warna border */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: white; /* Warna teks input */
+    width: 100%; /* Lebar input menyesuaikan dengan lebar container */
+}
+
+QLineEdit::placeholder {
+    color: #A1A1A1; /* Warna placeholder */
+    font-style: italic; /* Menambahkan gaya italic pada placeholder */
+    font-size: 15px; /* Membuat placeholder sedikit lebih besar untuk visibilitas lebih baik */
+}
+
+/* Gaya untuk label */
+QLabel {
+    font-size: 14px;
+    color: #E0E0E0; /* Warna teks abu-abu terang */
+    margin-bottom: 5px;
+}
+
+/* Gaya untuk label Admin */
+QLabel#adminLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFCA28; /* Warna kuning terang untuk penekanan */
+    margin-bottom: 8px;
+}
+
+
+/* Gaya untuk tombol login */
+QPushButton {
+    background-color: #1E88E5; /* Warna biru terang untuk tombol */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #1565C0; /* Warna biru gelap saat hover */
+}
+
+/* Gaya untuk border dan fokus pada input */
+QLineEdit:focus {
+    border: 2px solid #1E88E5; /* Warna biru untuk border saat fokus */
+}
+
+
+/* Gaya untuk tombol login */
+QPushButton {
+    background-color: #1E88E5; /* Warna biru terang untuk tombol */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #1565C0; /* Warna biru gelap saat hover */
+}
+
+/* Gaya untuk tombol yang tidak aktif */
+QPushButton:disabled {
+    background-color: #B0BEC5; /* Warna abu-abu untuk tombol non-aktif */
+    color: #616161;
+}
+
+/* Gaya untuk border dan fokus pada input */
+QLineEdit:focus {
+    border: 2px solid #1E88E5; /* Warna biru untuk border saat fokus */
+}

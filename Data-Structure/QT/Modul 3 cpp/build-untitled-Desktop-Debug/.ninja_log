@@ -1,0 +1,67 @@
+# ninja log v5
+651	3915	7340133145429207	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	a12694dd2d936443
+11	139	7340144196670839	untitled_autogen/timestamp	a8842a0ae3a8b2b
+11	139	7340144196670839	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+11	139	7340144196670839	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+646	3869	7340133145002799	CMakeFiles/untitled.dir/main.cpp.obj	6e74d5f7c4cd5988
+11	139	7340144196670839	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+142	4472	7340144239987936	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+4472	4687	7340144242019432	untitled.exe	8c8e3cc35657c4dc
+7	200	7340268695380610	untitled_autogen/timestamp	a8842a0ae3a8b2b
+7	200	7340268695380610	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+7	200	7340268695380610	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+7	200	7340268695380610	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+205	5043	7340268743748967	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+5043	5496	7340268748257698	untitled.exe	8c8e3cc35657c4dc
+13	164	7340269464800391	untitled_autogen/timestamp	a8842a0ae3a8b2b
+13	164	7340269464800391	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+13	164	7340269464800391	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+13	164	7340269464800391	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+168	4668	7340269509821441	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+4669	4881	7340269511853399	untitled.exe	8c8e3cc35657c4dc
+10	167	7340270836501020	untitled_autogen/timestamp	a8842a0ae3a8b2b
+10	167	7340270836501020	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+10	167	7340270836501020	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+10	167	7340270836501020	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+170	2953	7340270864303907	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+2953	3110	7340270865842358	untitled.exe	8c8e3cc35657c4dc
+6	166	7340289115445763	untitled_autogen/timestamp	a8842a0ae3a8b2b
+6	166	7340289115445763	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+6	166	7340289115445763	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+6	166	7340289115445763	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+169	3405	7340289147828809	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+3405	3567	7340289149380779	untitled.exe	8c8e3cc35657c4dc
+7	152	7340296827570253	untitled_autogen/timestamp	a8842a0ae3a8b2b
+7	152	7340296827570253	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+7	152	7340296827570253	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+7	152	7340296827570253	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+156	4758	7340296873617712	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+4759	4937	7340296875324177	untitled.exe	8c8e3cc35657c4dc
+32	200	7340299047714480	untitled_autogen/timestamp	a8842a0ae3a8b2b
+32	200	7340299047714480	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+32	200	7340299047714480	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+32	200	7340299047714480	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+204	5090	7340299096594632	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+5091	5344	7340299099069892	untitled.exe	8c8e3cc35657c4dc
+13	144	7340299940832078	untitled_autogen/timestamp	a8842a0ae3a8b2b
+13	144	7340299940832078	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+13	144	7340299940832078	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+13	144	7340299940832078	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+148	4877	7340299988086298	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+4877	5092	7340299990225515	untitled.exe	8c8e3cc35657c4dc
+16	159	7340300865074923	untitled_autogen/timestamp	a8842a0ae3a8b2b
+16	159	7340300865074923	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+16	159	7340300865074923	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+16	159	7340300865074923	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+162	4844	7340300911905109	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+4844	5069	7340300914066848	untitled.exe	8c8e3cc35657c4dc
+12	183	7340303542211213	untitled_autogen/timestamp	a8842a0ae3a8b2b
+12	183	7340303542211213	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+12	183	7340303542211213	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+12	183	7340303542211213	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+187	3356	7340303573963448	CMakeFiles/untitled.dir/mainwindow.cpp.obj	d8a0eb1153c77153
+3356	3551	7340303575826097	untitled.exe	8c8e3cc35657c4dc
+12	429	7454802654905921	untitled_autogen/timestamp	a8842a0ae3a8b2b
+12	429	7454802654905921	untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b
+12	429	7454802654905921	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/timestamp	a8842a0ae3a8b2b
+12	429	7454802654905921	D:/Saya/Programming/QT/Modul 3 cpp/build-untitled-Desktop-Debug/untitled_autogen/mocs_compilation.cpp	a8842a0ae3a8b2b

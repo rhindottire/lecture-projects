@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raja Iblis Ridho</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .folder {
+            cursor: pointer;
+            margin: 5px 0;
+        }
+
+        .F1 {
+            display: none;
+            margin-left: 20px;
+        }
+
+        .F2 {
+            display: none;
+            margin-left: 20px;
+        }
+
+        .FS1 {
+            display: none;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tree">
+        <h1>File Explorer</h1>
+        <ul class="jQuery">
+            <li type="none" class="folder">
+                <i class="fa-solid fa-folder"></i> Folder 1
+            </li>
+            <ul class="F1">
+                <li type="none" class="subfolder1">
+                    <i class="fa-solid fa-folder"></i> Subfolder 1
+                </li>
+                <ul class="FS1">
+                    <li type="square" class="file5">
+                        <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                            <i class="fa-regular fa-file"></i> File 5
+                        </a>
+                    </li>
+                    <li type="square" class="file6">
+                        <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                            <i class="fa-regular fa-file"></i> File 6
+                        </a>
+                    </li>
+                </ul>
+                <li type="circle" class="file1">
+                    <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                        <i class="fa-regular fa-file"></i> File 1
+                    </a>
+                </li>
+                <li type="circle" class="file2">
+                    <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                        <i class="fa-regular fa-file"></i> File 2
+                    </a>
+                </li>
+            </ul>
+            <li type="none" class="folder">
+                <i class="fa-solid fa-folder"></i> Folder 2
+            </li>
+            <ul class="F2">
+                <li type="circle" class="file3">
+                    <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                        <i class="fa-regular fa-file"></i> File 3
+                    </a>
+                </li>
+                <li type="circle" class="file4">
+                    <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                        <i class="fa-regular fa-file"></i> File 4
+                    </a>
+                </li>
+            </ul>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".folder").click(function () {
+                $(this).next(".F1").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".folder").click(function () {
+                $(this).next(".F2").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".subfolder1").click(function () {
+                $(this).next(".FS1").toggle();
+            });
+        });
+    </script>
+</body>
+</html>
