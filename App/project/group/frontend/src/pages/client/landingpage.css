@@ -1,0 +1,603 @@
+/* Gaya dasar untuk body */
+body {
+    background-color: #121212;
+    /* Warna latar belakang gelap */
+    color: white;
+    /* Warna teks putih */
+    font-family: Arial, sans-serif;
+    /* Font yang digunakan */
+}
+
+.background_search {
+    width: 1500px;
+    /* Lebar sidebar */
+    background-color: #000;
+    /* Warna latar belakang hitam */
+    height: 15vh;
+    /* Tinggi 100% viewport */
+    position: fixed;
+    /* Posisi tetap */
+    top: 0;
+    left: 10;
+    display: flex;
+    flex-direction: column;
+    /* Susunan vertikal */
+    align-items: center;
+    /* Posisikan ikon di tengah */
+    padding-top: 20px;
+    /* Padding atas */
+    z-index: 1;
+    /* Agar selalu di atas elemen lain */
+}
+
+/* Gaya untuk bilah pencarian */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    /* Warna latar belakang abu-abu gelap */
+    padding: 10px;
+    border-radius: 20px;
+    /* Sudut membulat */
+    position: fixed;
+    /* Posisi tetap */
+    top: 20px;
+    left: 100px;
+    right: 20px;
+    z-index: 1;
+    /* Agar selalu di atas elemen lain */
+}
+
+.search-bar input {
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+}
+
+/* Gaya untuk input di bilah pencarian */
+.search-bar input {
+    background: none;
+    /* Tanpa latar belakang */
+    border: none;
+    /* Tanpa border */
+    color: white;
+    /* Warna teks putih */
+    outline: none;
+    /* Tanpa outline saat fokus */
+    width: 100%;
+    margin-left: 10px;
+}
+
+/* Gaya untuk ikon pencarian */
+.search-bar i {
+    color: white;
+}
+
+.search-results {
+    position: absolute;
+    /* Tetap di layar meskipun halaman digulir */
+    top: 10%;
+    /* Posisikan di tengah layar secara vertikal */
+    left: 31%;
+    /* Posisikan di tengah layar secara horizontal */
+    transform: translate(-50%, -0%);
+    /* Pusatkan elemen secara sempurna */
+    width: 50%;
+    /* Lebar elemen */
+    background-color: #1e1e1e;
+    /* Warna latar belakang */
+    border-radius: 10px;
+    /* Sudut membulat */
+    padding: 10px;
+    /* Ruang di dalam elemen */
+    z-index: 1000;
+    /* Pastikan elemen berada di atas konten lainnya */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Tambahkan bayangan untuk efek melayang */
+}
+
+
+.search-results .result-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+
+.search-results .result-item:last-child {
+    border-bottom: none;
+}
+
+.search-results img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.search-results .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-results .details .song-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.search-results .details .artist-name {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Gaya untuk banner */
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    /* Warna latar belakang default jika gambar tidak ada */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    /* Menjaga gambar tidak melampaui batas */
+    padding-top: 50px;
+}
+
+/* Styling untuk gambar di dalam carousel */
+.banner img {
+    width: 100%;
+    /* Menyesuaikan lebar dengan container */
+    height: 100%;
+    /* Tinggi gambar menyesuaikan dengan container */
+    object-fit: cover;
+    /* Memastikan gambar menutupi area tanpa merubah rasio */
+}
+
+/* Styling untuk carousel */
+.carousel-inner {
+    height: 100%;
+    /* Carousel menyesuaikan tinggi container */
+}
+
+.carousel-item {
+    height: 100%;
+    /* Item carousel menyesuaikan tinggi */
+}
+
+/* Styling untuk kontrol carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Kontrol dengan latar belakang transparan */
+    border-radius: 50%;
+    /* Membulatkan tombol kontrol */
+    z-index: 10;
+    /* Agar kontrol berada di atas gambar */
+}
+
+/* Styling untuk label sponsor */
+.banner .sponsored {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Latar transparan */
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    /* Teks putih */
+    border-radius: 5px;
+    z-index: 5;
+    /* Agar label berada di atas gambar */
+}
+
+/* Gaya untuk tombol filter */
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    /* Jarak antar tombol */
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk setiap tombol filter */
+.filter-buttons button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* Sudut membulat */
+    cursor: pointer;
+    /* Pointer saat hover */
+}
+
+/* Gaya untuk daftar putar */
+.playlist {
+    display: flex;
+    flex-wrap: wrap;
+    /* Membungkus elemen jika diperlukan */
+    gap: 10px;
+    /* Jarak antar item */
+}
+
+/* Gaya untuk setiap item dalam daftar putar */
+.playlist-item {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    width: calc(33.333% - 10px);
+    /* Tiga kolom */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Jarak antar elemen dalam item */
+}
+
+/* Gaya untuk gambar dalam item daftar putar */
+.playlist-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Gaya untuk teks "Lebih banyak seperti ini" */
+.more-like {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Gaya untuk bilah pemutaran saat ini */
+.now-playing-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+/* Gaya untuk gambar album di bilah pemutaran */
+.now-playing-bar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Gaya untuk informasi lagu */
+.now-playing-bar .song-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Gaya untuk kontrol pemutaran */
+.now-playing-bar .controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Gaya untuk ikon kontrol */
+.now-playing-bar .controls i {
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    /* Pointer saat hover */
+}
+
+/* Gaya untuk bilah progres */
+.now-playing-bar .progress-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+/* Gaya untuk input range pada bilah progres */
+.now-playing-bar .progress-bar input {
+    width: 100%;
+}
+
+/* styling untuk card */
+/* styling untuk card */
+/* styling untuk card */
+/* styling untuk card */
+/* styling untuk card */
+/* styling untuk card */
+/* styling untuk card */
+/* styling untuk card */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.btn-group button {
+    background-color: #4b5563;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+    background-color: #6b7280;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.section-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section-header a {
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+.section-header a:hover {
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.card {
+    background-color: #374151;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #9ca3af;
+    margin: 0;
+}
+
+.card p {
+    color: #9ca3af;
+    margin: 8px 0 0;
+}
+
+.break {
+    height: 100px;
+    /* Anda bisa menyesuaikan ukuran sesuai kebutuhan */
+    width: 100%;
+    /* Pastikan elemen mengambil seluruh lebar halaman */
+    background-color: transparent;
+    /* Transparan untuk memastikan tidak mengganggu desain */
+    display: block;
+    /* Pastikan elemen diperlakukan sebagai blok */
+}
+
+.music-card-container {
+    display: none;
+    /* Tersembunyi secara default */
+    position: fixed;
+    top: 50%;
+    right: -40px;
+    /* Mulai di luar layar */
+    transform: translateY(-50%);
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+
+.music-card-container.active {
+    display: block;
+    right: 200px;
+    /* Muncul ke dalam layar */
+}
+
+.action-buttons {
+    position: absolute;
+    /* Membuat elemen ini posisinya relatif terhadap container induknya */
+    top: 20px;
+    /* Jarak dari atas */
+    right: 20px;
+    /* Jarak dari kanan */
+    display: flex;
+    /* Mengatur tata letak internal untuk ikon */
+    gap: 10px;
+    /* Jarak antar ikon */
+}
+
+/* Styling untuk ikon di dalam .action-buttons */
+.action-buttons i {
+    font-size: 20px;
+    /* Ukuran ikon */
+    color: #333;
+    /* Warna default ikon */
+    cursor: pointer;
+    /* Mengubah kursor saat hover */
+    transition: color 0.3s ease;
+    /* Animasi transisi warna */
+}
+
+/* Efek hover pada ikon */
+.action-buttons i:hover {
+    color: #ff0000;
+    /* Warna ikon saat di-hover */
+}
+
+
+
+
+
+
+/* body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: white;
+      overflow: hidden;
+    } */
+.card {
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3,
+.card p {
+    margin: 10px 0;
+}
+
+.music-card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 300px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.music-card-container .hide-close i {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hide-close {
+    display: flex;
+    /* Gunakan Flexbox */
+    justify-content: flex-end;
+    /* Rata kiri */
+    gap: 10px;
+    /* Jarak antar ikon */
+}
+
+.hide-close i {
+    cursor: pointer;
+    /* Pointer cursor saat di hover */
+}
+
+
+.music-card-container.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.music-card-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* show button */
+.show-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: none;
+    /* Hidden by default */
+    z-index: 1001;
+    color: black;
+}
+
+.show-button:hover {
+    background-color: #6b7280;
+}
+
+.song-info h2,
+.song-info p {
+    margin: 10px 0;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+
+.overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
