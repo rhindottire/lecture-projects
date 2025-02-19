@@ -1,0 +1,3 @@
+[submodule "Data-Mining"]
+	path = Data-Mining
+	url = .\\Data-Mining\\
