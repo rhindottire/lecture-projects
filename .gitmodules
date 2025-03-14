@@ -4,3 +4,6 @@
 [submodule "FrameworkLab"]
 	path = FrameworkLab
 	url = https://github.com/rhindottire/FrameworkLab
+[submodule "Information-Retrieval/Cosinus-Similarity"]
+	path = Information-Retrieval/Cosinus-Similarity
+	url = https://github.com/rhindottire/Cosinus-Similarity.git
