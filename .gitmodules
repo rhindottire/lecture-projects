@@ -1,3 +1,6 @@
 [submodule "Data-Mining"]
 	path = Data-Mining
 	url = .\\Data-Mining\\
+[submodule "FrameworkLab"]
+	path = FrameworkLab
+	url = https://github.com/rhindottire/FrameworkLab
